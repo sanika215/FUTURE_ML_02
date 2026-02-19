@@ -8,7 +8,7 @@ In real-world companies, customer support teams receive hundreds or even thousan
 Major challenges faced by support teams include:
 
 Tickets not being categorized correctly
-Urgent issues getting delayed
+Urgent issues getting delayed 
 Excessive manual effort spent on sorting tickets
 This task focuses on solving these problems using Machine Learning, by automatically classifying and prioritizing customer support tickets.
 
