@@ -1,72 +1,43 @@
-Machine Learning Task 02 – Support Ticket Classification & Prioritization
-Internship Program: Future Interns
-Year: 2026
+# Machine Learning Task 02 – Support Ticket Classification & Prioritization
 
-🔍 About the Task
-In real-world companies, customer support teams receive hundreds or even thousands of support tickets daily in the form of emails, feedback forms, complaints, and issue reports.
+## Project Overview
+This project focuses on building a Machine Learning system that automatically classifies and prioritizes customer support tickets using Natural Language Processing (NLP).
 
-Major challenges faced by support teams include:
+In real-world companies, support teams receive a large number of tickets daily. Manual sorting of tickets is time-consuming and can delay urgent issues. This system helps automate the process and improve efficiency.
 
-Tickets not being categorized correctly
-Urgent issues getting delayed 
-Excessive manual effort spent on sorting tickets
-This task focuses on solving these problems using Machine Learning, by automatically classifying and prioritizing customer support tickets.
+## Objective
+- Classify support tickets into categories such as:
+  - Billing
+  - Technical Issue
+  - Account
+  - General Query
+- Assign priority levels:
+  - High
+  - Medium
+  - Low
+- Reduce manual workload and response time
 
-Instead of building a chatbot, this task simulates a real business ML system used in SaaS companies, service platforms, and IT support teams.
+## Technologies Used
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- NLTK / spaCy
+- Scikit-learn
 
-🎯 Objective
-The objective of this task is to build a Machine Learning system that can:
+## Methodology
+1. Data loading and exploration  
+2. Text cleaning and preprocessing  
+3. Tokenization and stopword removal  
+4. Feature extraction using TF-IDF / Bag of Words  
+5. Model training using classification algorithms  
+6. Model evaluation using accuracy and other metrics  
 
-Read customer support ticket text
-Automatically classify tickets into categories such as:
-Billing
-Technical Issue
-Account
-General Query
-Assign a priority level:
-High
-Medium
-Low
-This helps businesses respond faster, reduce ticket backlog, and improve customer satisfaction.
+## Output
+- Tickets are automatically categorized  
+- Priority levels are assigned  
+- Model performance is evaluated  
 
-✅ What Was Done
-As part of this task, the following steps were completed:
-
-Loaded and explored text-based support ticket data
-Cleaned and preprocessed raw text
-Performed tokenization and text normalization
-Converted text into numerical features using vectorization techniques
-Trained machine learning classification models
-Evaluated model performance using suitable metrics
-Explained how the system improves support operations
-This task goes beyond model training and focuses on building a decision-support system for real businesses.
-
-🛠️ Tools & Technologies Used
-Core Development Tools
-Python
-Jupyter Notebook
-VS Code
-NLP & Machine Learning Libraries
-Pandas
-NumPy
-NLTK
-spaCy
-Scikit-learn
-Techniques Used
-Text cleaning and preprocessing
-Tokenization
-TF-IDF / Bag of Words vectorization
-Classification models
-📊 Output
-Support tickets classified into relevant categories
-Priority levels assigned to each ticket
-Model evaluation results to assess performance
-🏁 Conclusion
-This task demonstrates how Natural Language Processing and Machine Learning can be used to automate support ticket classification and prioritization.
-
-Such systems help organizations:
-
-Respond to urgent issues faster
-Reduce manual workload
-Improve customer experience
-Optimize support team efficiency
+## Conclusion
+This project demonstrates how Machine Learning and NLP can be applied to automate support ticket management.  
+By classifying and prioritizing tickets automatically, organizations can respond faster, reduce backlog, and improve overall customer satisfaction.
